@@ -1,0 +1,1075 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+input {
+    border: 1px solid #D5D5D5;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.none {
+    display: none;
+}
+
+.slider_min {
+    display: none;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 16px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.telephone {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.telephone svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.btns_header {
+    display: flex;
+    align-items: center;
+}
+
+.btns_header svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+}
+
+.btns_header button {
+    width: 176px;
+    height: 46px;
+}
+
+.btn_blue {
+    background-color: #098FCF;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: #F9F9F9;
+}
+
+.menu_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.menu svg {
+    width: 20px;
+    height: 20px;
+}
+
+.menu_wrapper button {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.menu_wrapper button+button {
+    margin-left: 40px
+}
+
+.blue {
+    color: #098FCF
+}
+
+.order_card {
+    padding-top: 49px;
+    margin-top: 48px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    padding-left: 96px;
+}
+
+.fuel_order_form {
+    margin-top: 30px;
+    display: flex;
+    align-items: end;
+}
+
+.fuel_order_input+.fuel_order_input {
+    margin-left: 14px;
+}
+
+.fuel_order_input p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.fuel_order_input input {
+    height: 46px;
+    width: 273px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.fuel_order_input input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #565656;
+}
+
+.fuel_order_form button {
+    width: 258px;
+    height: 46px;
+    margin-left: 14px;
+}
+
+.approval {
+    margin-top: 30px;
+    padding-bottom: 43px;
+    display: flex;
+    align-content: center;
+}
+
+.approval input {
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+.approval p {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.table_fuel {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.table_head {
+    margin-top: 48px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #043C77;
+    display: grid;
+    grid-template-columns: 163px 286px 320px 187px 164px;
+    align-items: center
+}
+
+.table_head p:nth-child(1) {
+    margin-left: 20px;
+}
+
+.table_head p:nth-child(2) {
+    margin-left: 29px;
+}
+
+.table_head p:nth-child(3) {
+    margin-left: 30px;
+}
+
+.tabel_content {
+    display: grid;
+    grid-template-columns: 163px 286px auto;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.oil {
+    color: #FFFFFF;
+    background: #098FCF;
+    padding-top: 16px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.oil_class1 {
+    display: grid;
+    grid-template-rows: 144px 96px;
+}
+
+.oil_class2 {
+    display: grid;
+    grid-template-rows: 144px 96px 144px;
+}
+
+.oil_class1 p,
+.oil_class2 p {
+    border: 1px solid #D5D5D5;
+    padding-top: 16px;
+    padding-left: 30px;
+}
+
+.oil_price {
+    display: grid;
+    grid-template-rows: 48px;
+}
+
+.oil_cost {
+    display: grid;
+    grid-template-columns: 320px 187px 164px;
+    border: 1px solid #D5D5D5;
+    align-items: center;
+}
+
+.oil_cost p:nth-child(1) {
+    padding-left: 30px;
+}
+
+.fuel_delivery {
+    background: #F9F9F9;
+    padding-top: 74px;
+    padding-bottom: 73px;
+}
+
+.fuel_delivery_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 34px;
+}
+
+.input_delivery p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.delivery_form_wrapper p {
+    margin-top: 16px;
+}
+
+.input_delivery input,
+.type_fuel {
+    height: 46px;
+    width: 409px;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.delivery_form_wrapper {
+    margin-top: -16px;
+}
+
+.receipt_list {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    width: 638px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #E7E7E7;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.price_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.receipt_list p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #565656;
+    max-width: 346px;
+}
+
+.receipt_list button {
+    width: 258px;
+    height: 46px;
+}
+
+.work_cards_wrapper {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+}
+
+.work_card {
+    background: #043C77;
+    color: #fff;
+    padding: 30px;
+    width: 353px;
+}
+
+.icon_time_arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_time_arrow svg {
+    width: 64px;
+    height: 64px;
+}
+
+.time_arrow svg {
+    width: 59px;
+    height: 14px;
+    margin-top: 17px;
+}
+
+.work_card_head {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.work_card_text {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.work_card_text_litle {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.advantage {
+    padding: 80px 0 72px 0;
+    background: #F9F9F9;
+}
+
+.advantage_cards_wrapper {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.advantage_card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.advantage_card svg {
+    height: 48px;
+    width: 48px;
+}
+
+.advantage_card_header {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.advantage_card_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #565656;
+    width: 246px;
+    margin-top: 12px;
+}
+
+.certificates_wrapper_slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    gap: 10px;
+}
+
+.heading_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.certificate_card {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.certificate_card {
+    padding: 28px 20px;
+    margin: 10px;
+}
+
+.certificates_btns {
+    display: flex;
+    gap: 16px;
+}
+
+.btn_left,
+.btn_right {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D5D5D5;
+}
+
+.partners {
+    margin-bottom: 52px;
+}
+
+.slider_partners {
+    margin-top: 48px;
+}
+
+.partners_slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.long_line {
+    border: 1px solid #E7E7E7;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.tochki {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.reviews {
+    padding-top: 86px;
+    padding-bottom: 80px;
+    background: #F9F9F9;
+}
+
+.reviews_cards_slide {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.reviews_card {
+    padding: 40px;
+    background: #FFFFFF;
+    position: relative;
+    height: 368px;
+}
+
+.reviews_card_header {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.reviews_card_status {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #565656;
+    margin-top: 12px;
+    width: 246px;
+}
+
+.reviews_card_content {
+    margin-top: 40px;
+    max-width: 465px;
+}
+
+.more_detailed {
+    color: #098FCF;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.reviews_all {
+    width: 258px;
+    height: 46px;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+
+.questions {
+    color: #fff;
+    background: #043C77;
+}
+
+.questions .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 86px;
+    padding-bottom: 80px;
+}
+
+.question_content {
+    margin-top: 40px;
+    font-size: 17px;
+    max-width: 650px;
+    text-align: center;
+}
+
+.privacy {
+    margin-top: 18px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.privacy a {
+    text-decoration: underline;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F9F9F9;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_icon img {
+    height: 50px;
+}
+
+.footer_icon p {
+    color: #565656;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.footer_link_1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.footer_link_2 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.footer_tel {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-weight: 700;
+}
+
+.footer_tel a+a {
+    color: #098FCF;
+    margin-top: 2px;
+    font-size: 19px;
+}
+
+.footer_link_1 a+a,
+.footer_link_2 a+a {
+    margin-top: 2px;
+}
+
+.table_head_mobile {
+    display: none;
+}
+
+.partners_mobile {
+    display: none;
+}
+
+.partners_slide_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_partners_mobile {
+    padding-top: 48px;
+}
+
+@media (max-width: 1145px) {
+    .certificates_offer__slide img+img {
+        display: none;
+    }
+    .certificates_wrapper_slider {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1110px) {
+    .container {
+        padding: 0 10px;
+    }
+    .reviews_card_content {
+        max-width: 300px;
+    }
+    .reviews_cards_slide {
+        justify-content: space-around;
+    }
+    .fuel_delivery_form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .receipt_list {
+        margin-top: 20px;
+    }
+    .advantage_card {
+        flex-direction: column;
+        gap: 13px;
+    }
+    .table_head {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .tabel_content {
+        grid-template-columns: 1fr 1fr 3fr;
+    }
+    .oil_cost {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width: 960px) {
+        .advantage_cards_wrapper {
+            grid-template-columns: 1fr 1fr;
+        }
+        .order_card {
+            padding-left: 0;
+        }
+        section {
+            margin-top: 50px;
+        }
+        .menu_wrapper button {
+            font-size: 11px;
+        }
+        .btns_header button {
+            width: 130px;
+            font-size: 10px;
+        }
+        .telephone {
+            margin-right: 15px;
+        }
+        .fuel_order_input input {
+            width: 210px;
+        }
+        .footer_tel a,
+        .footer_tel a+a,
+        .footer_link_1,
+        .footer_link_2 {
+            font-size: 13px;
+        }
+        .work_cards_wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews_card {
+            height: 410px;
+        }
+        .fuel_order_form button {
+            width: 200px;
+        }
+        .partners_max {
+            display: none;
+        }
+        .partners_mobile {
+            display: block;
+        }
+    }
+    @media (max-width: 768px) {
+        .menu {
+            display: none;
+        }
+        .contacts {
+            display: none;
+        }
+        .header_wrapper img,
+        .header_wrapper svg {
+            max-width: 23%;
+        }
+        .header a {
+            font-size: 12px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 26px;
+        }
+        .order_card {
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        .approval {
+            padding-left: 20px;
+        }
+        .approval p {
+            font-size: 12px;
+        }
+        .approval input {
+            margin-right: 10px;
+            width: 16px;
+            height: 16px;
+        }
+        .fuel_order_form {
+            flex-direction: column;
+            align-items: center;
+        }
+        .fuel_order_input input {
+            width: 300px;
+        }
+        .fuel_order_input+.fuel_order_input {
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+        .fuel_order_form button {
+            width: 300px;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+        .table_head,
+        .tabel_content {
+            font-size: 10px;
+        }
+        .oil_class1 p,
+        .oil_class2 p,
+        .table_head p:nth-child(2) {
+            margin-left: 0;
+            padding-left: 10px;
+        }
+        .oil_cost p:nth-child(1),
+        .table_head p:nth-child(3) {
+            padding-left: 5px;
+            margin-left: 0;
+        }
+        .oil {
+            font-size: 18px;
+        }
+        .fuel_delivery {
+            padding-top: 20px;
+        }
+        .receipt_list {
+            width: 100%;
+        }
+        .work_card_head {
+            font: 18px;
+        }
+        .work_card_text {
+            font-size: 12px;
+        }
+        .work_card_text_litle {
+            margin-top: 0;
+        }
+        .advantage_cards_wrapper {
+            grid-template-columns: 1fr;
+        }
+        .footer_icon img {
+            max-width: 75%;
+        }
+        .footer_link_1 {
+            margin-left: 0;
+        }
+        .footer_tel a,
+        .footer_tel a+a,
+        .footer_link_1,
+        .footer_link_2,
+        .footer_icon p {
+            font-size: 11px;
+        }
+        .reviews_card+.reviews_card {
+            display: none;
+        }
+    }
+    @media (max-width: 575px) {
+        .contacts {
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+        }
+        .btns_header {
+            width: 100%;
+        }
+        .btns_header button {
+            width: 50%;
+            font-size: 65%;
+        }
+        .header_wrapper img,
+        .header_wrapper svg {
+            max-width: 55%;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .order_card {
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        .fuel_order_input input {
+            width: 250px;
+        }
+        .fuel_order_form button {
+            width: 250px;
+        }
+        .table_head {
+            margin-top: 0;
+        }
+        .table_head p:nth-child(1) {
+            margin-left: 5px;
+        }
+        .oil {
+            padding-left: 0px;
+            font-size: 9px;
+        }
+        .table_fuel {
+            grid-row-gap: 1px;
+        }
+        .tabel_content {
+            grid-template-columns: 1fr 1fr 5fr;
+        }
+        .oil_class1 p,
+        .oil_class2 p,
+        .table_head p:nth-child(2) {
+            padding-left: 3px;
+        }
+        .table_head {
+            grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+        }
+        .table_head p:nth-child(1),
+        .oil_class1 p,
+        .oil_class2 p,
+        .table_head p:nth-child(2),
+        .oil_cost p:nth-child(1),
+        .table_head p:nth-child(3) {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .table_head p {
+            text-align: center;
+        }
+        .oil_cost {
+            grid-template-columns: 3fr 1fr 1fr;
+        }
+        .table_head {
+            font-size: 12px;
+        }
+        .table_head {
+            display: none;
+        }
+        .table_head_mobile {
+            display: grid;
+        }
+        .tabel_content {
+            text-align: center;
+        }
+        .tabel_content {
+            font-size: 9px;
+        }
+        .fuel_delivery_form {
+            margin-top: 20px;
+        }
+        .input_delivery input,
+        .type_fuel {
+            width: 265px;
+        }
+        .receipt_list button {
+            width: 210px;
+        }
+        .work_card {
+            width: 275px;
+        }
+        .questions .container {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .footer_wrapper {
+            flex-direction: column;
+        }
+        .footer_tel {
+            align-items: start;
+        }
+        .footer_tel a,
+        .footer_tel a+a,
+        .footer_link_1,
+        .footer_link_2,
+        .footer_icon p {
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        h4 {
+            font-size: 12px;
+        }
+        .reviews_card {
+            padding: 20px;
+        }
+    }
+}
+
+.menu_wrapper button {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.menu_wrapper button:hover .submenu {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.submenu li {
+    background: #F9F9F9;
+    align-items: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.submenu li a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -46px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    gap: 46px;
+}
+
+.dot {
+    border-radius: 50%;
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 6px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: #098FCF;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}

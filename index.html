@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/star.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/mobile-nav-button.css">
+    <title>Процессинг24</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <img src="./img/logo.svg" alt="logo">
+                <div class="contacts">
+                    <div class="telephone">
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#phone"></use>
+                        </svg>
+                        <a href="tel: 84951278280">8 (495) 127-82-80</a>
+                    </div>
+                    <div class="btns_header">
+                        <button class="btn_blue">Напишите нам</button>
+                        <button class="btn_blue">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#user"></use>
+                            </svg>
+                            <p>Личный кабинет</p>
+                        </button>
+                    </div>
+                </div>
+                <button type="button" class="mobile-nav-button">
+					<span class="mobile-nav-button__icon"></span>
+				</button>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <img class="mobile-nav-logo" src="./img/logo.svg" alt="Logo">
+            <nav class="mobile-nav-list">
+                <div class="menu_wrapper">
+                    <button>
+                        <p>Доставка топлива</p>
+                    </button>
+                    <button>
+                        <p>Топливные карты</p>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                        <ul class="submenu">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                        </ul>
+                    </button>
+                    <button>
+                        <p>АЗС</p>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                        <ul class="submenu">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                        </ul>
+                    </button>
+                    <button>
+                        <p>Цены на топливо</p>
+                    </button>
+                    <button>
+                        <p>О компании</p>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                        <ul class="submenu">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                        </ul>
+                    </button>
+                    <button>
+                        <p>Контакты</p>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="btns_header">
+                <button class="btn_blue">Напишите нам</button>
+                <button class="btn_blue">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#user"></use>
+                    </svg>
+                    <p>Личный кабинет</p>
+                </button>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <div class="menu_wrapper">
+                    <button>
+                        <p>Доставка топлива</p>
+                    </button>
+                    <button>
+                        <p>Топливные карты</p>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                        <ul class="submenu">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                        </ul>
+                    </button>
+                    <button>
+                        <p>АЗС</p>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                        <ul class="submenu">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                        </ul>
+                    </button>
+                    <button>
+                        <p>Цены на топливо</p>
+                    </button>
+                    <button>
+                        <p>О компании</p>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                        <ul class="submenu">
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                        </ul>
+                    </button>
+                    <button>
+                        <p>Контакты</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="fuel_order">
+        <div class="container">
+            <h1>Доставка топлива</h1>
+            <div class="order_card">
+                <h2>Быстрый <span class="blue">заказ топлива</span></h2>
+                <form class="fuel_order_form" action="#">
+                    <div class="fuel_order_input">
+                        <p>Ваше имя</p>
+                        <input type="text" placeholder="Иван">
+                    </div>
+                    <div class="fuel_order_input">
+                        <p>Номер телефона</p>
+                        <input name="phone" type="tel" placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <button type="submit" class="btn_blue">Заказать топливо</button>
+                </form>
+                <div class="approval">
+                    <input type="checkbox">
+                    <p>Я согласен с условиями обработки данных</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fuel_cost">
+        <div class="container">
+            <h2>Стоимость топлива</h2>
+            <div class="table_fuel">
+                <div class="table_head">
+                    <p>Сорт топлива</p>
+                    <p>Экологический класс</p>
+                    <p>Производитель</p>
+                    <p>Наличный расчет</p>
+                    <p>Безналичный расчет</p>
+                </div>
+                <div class="table_head table_head_mobile">
+                    <p>Сорт</p>
+                    <p>Класс</p>
+                    <p>Производитель</p>
+                    <p>Нал.</p>
+                    <p>Безн.</p>
+                </div>
+                <div class="tabel_content">
+                    <div class="oil">
+                        <p>ДТ</p>
+                    </div>
+                    <div class="oil_class1">
+                        <p>ЕВРО-5</p>
+                        <p>ЕВРО-4</p>
+                    </div>
+                    <div class="oil_price">
+                        <div class="oil_cost">
+                            <p>Газпромнефть</p>
+                            <p>45.43 р.</p>
+                            <p>44.43 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Лукойл</p>
+                            <p>45.16 р.</p>
+                            <p>43.98 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Роснефть</p>
+                            <p>42.34 р.</p>
+                            <p>41.64 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Газпромнефть</p>
+                            <p>-</p>
+                            <p>-</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Лукойл</p>
+                            <p>41.16 р.</p>
+                            <p>40.67 р.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabel_content">
+                    <div class="oil">
+                        <p>АИ-95</p>
+                    </div>
+                    <div class="oil_class2">
+                        <p>ЕВРО-5</p>
+                        <p>ЕВРО-4</p>
+                        <p>ЕВРО-3</p>
+                    </div>
+                    <div class="oil_price">
+                        <div class="oil_cost">
+                            <p>Газпромнефть</p>
+                            <p>45.43 р.</p>
+                            <p>44.43 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Лукойл</p>
+                            <p>45.16 р.</p>
+                            <p>43.98 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Роснефть</p>
+                            <p>42.34 р.</p>
+                            <p>41.64 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Лукойл</p>
+                            <p>41.16 р.</p>
+                            <p>40.67 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Газпромнефть</p>
+                            <p>-</p>
+                            <p>-</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Роснефть</p>
+                            <p>42.34 р.</p>
+                            <p>41.64 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Лукойл</p>
+                            <p>41.16 р.</p>
+                            <p>40.67 р.</p>
+                        </div>
+                        <div class="oil_cost">
+                            <p>Газпромнефть</p>
+                            <p>-</p>
+                            <p>-</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="fuel_delivery">
+        <div class="container">
+            <h2>Топливо с доставкой</h2>
+            <form action="#" class="fuel_delivery_form">
+                <div class="delivery_form_wrapper">
+                    <div class="input_delivery">
+                        <p class="first">Вид топлива</p>
+                        <select class="type_fuel" name="type_fuel">
+                            <option value="s1" selected>АИ-95</option>
+                            <option value="s2">ДТ</option>
+                        </select>
+                    </div>
+                    <div class="input_delivery">
+                        <p>Объем топлива</p>
+                        <input type="text" placeholder="1670 литров">
+                    </div>
+                    <div class="input_delivery">
+                        <p>Место доставки</p>
+                        <input type="text" placeholder="Укажите место">
+                    </div>
+                    <div class="input_delivery">
+                        <p>Ваше имя</p>
+                        <input type="text" placeholder="Иван">
+                    </div>
+                    <div class="input_delivery">
+                        <p>Номер телефона</p>
+                        <input type="text" placeholder="+7 (___) ___-__-__">
+                    </div>
+                </div>
+                <div class="receipt_list">
+                    <h3>Итого</h3>
+                    <div class="line"></div>
+                    <div class="price_item">
+                        <h4>Стоимость топлива</h4>
+                        <h4>77 350.00 ₽</h4>
+                    </div>
+                    <div class="line"></div>
+                    <div class="price_item">
+                        <h4>Цена за литр:</h4>
+                        <h4>45.50 ₽</h4>
+                    </div>
+                    <p>Цена и стоимость указаны ориентировочно. Точные цену и стоимость собщит наш менеджер при подтверждении заявки.</p>
+                    <div class="line"></div>
+                    <div class="price_item">
+                        <h4>Выгода:</h4>
+                        <h4 class="bold">6 953.00 ₽</h4>
+                    </div>
+                    <p>При цене на АЗС 49.59 ₽ за литр, цены актуальны на 23.11.2020 г.</p>
+                    <button class="btn_blue" type="submit">Заказать топливо</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="how_we_work">
+        <div class="container">
+            <h2>Как мы работаем</h2>
+            <div class="work_cards_wrapper">
+                <div class="work_card">
+                    <div class="icon_time_arrow">
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#click"></use>
+                        </svg>
+                        <div class="time_arrow">
+                            <p>1-3 мин.</p>
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#arrowvector"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="work_card_head">Оформление заявки</p>
+                    <p class="work_card_text">Заполните заявку на сайте, укажите удобное для вас место приезда заправщика, сорт и количество топлива, которое хотите купить</p>
+                </div>
+                <div class="work_card">
+                    <div class="icon_time_arrow">
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#phone1"></use>
+                        </svg>
+                        <div class="time_arrow">
+                            <p>1-3 мин.</p>
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#arrowvector"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="work_card_head">Подтверждение заявки менеджером</p>
+                    <p class="work_card_text">Дождитесь звонка нашего менеджера для уточнения условий заказа</p>
+                </div>
+                <div class="work_card">
+                    <div class="icon_time_arrow">
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#gas"></use>
+                        </svg>
+                        <div class="time_arrow">
+                            <p>30-90 мин.</p>
+                        </div>
+                    </div>
+                    <p class="work_card_head">Заправка вашего автомобиля</p>
+                    <p class="work_card_text">В назначенное время приедет заправщик и заправит автомобиль топливом.</p>
+                    <p class="work_card_text_litle">Если у заказчика есть действующий договор на топливные карты, то при оплате можно провести транзакцию через терминал. Переносное устройство есть у каждого заправщика</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantage">
+        <div class="container">
+            <h2>Преимущества сервиса</h2>
+            <div class="advantage_cards_wrapper">
+                <div class="advantage_card">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#certificate"></use>
+                    </svg>
+                    <div class="advantage_card_content">
+                        <p class="advantage_card_header">Качество топлива</p>
+                        <p class="advantage_card_text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</p>
+                    </div>
+                </div>
+                <div class="advantage_card">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#clock"></use>
+                    </svg>
+                    <div class="advantage_card_content">
+                        <p class="advantage_card_header">Бережем ваше время и нервы</p>
+                        <p class="advantage_card_text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</p>
+                    </div>
+                </div>
+                <div class="advantage_card">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#ruble"></use>
+                    </svg>
+                    <div class="advantage_card_content">
+                        <p class="advantage_card_header">Цена</p>
+                        <p class="advantage_card_text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</p>
+                    </div>
+                </div>
+                <div class="advantage_card">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#place"></use>
+                    </svg>
+                    <div class="advantage_card_content">
+                        <p class="advantage_card_header">Ваш комфорт—наша забота</p>
+                        <p class="advantage_card_text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</p>
+                    </div>
+                </div>
+                <div class="advantage_card">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#shield"></use>
+                    </svg>
+                    <div class="advantage_card_content">
+                        <p class="advantage_card_header">Безопасность процесса</p>
+                        <p class="advantage_card_text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</p>
+                    </div>
+                </div>
+                <div class="advantage_card">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#way"></use>
+                    </svg>
+                    <div class="advantage_card_content">
+                        <p class="advantage_card_header">Несколько ТС в одном месте?</p>
+                        <p class="advantage_card_text">Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certificates">
+        <div class="container">
+            <div class="heading_btns">
+                <h2>Сертификаты качества топлива</h2>
+                <div class="certificates_btns">
+                    <button class="btn_left certificates__slider_prev"><img src="./img/icons/arrow_btn/previous.svg" alt=""></button>
+                    <button class="btn_right certificates__slider_next"><img src="./img/icons/arrow_btn/next.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="certificates_offer__slider">
+                <div class="certificates_wrapper_slider">
+                    <div class="certificates_offer__slide">
+                        <img class="certificate_card" src="./img/certificate/image1.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image2.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image3.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image4.png" alt="certificate">
+                    </div>
+                    <div class="certificates_offer__slide">
+                        <img class="certificate_card" src="./img/certificate/image2.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image3.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image4.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image1.png" alt="certificate">
+                    </div>
+                    <div class="certificates_offer__slide">
+                        <img class="certificate_card" src="./img/certificate/image3.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image4.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image1.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image2.png" alt="certificate">
+
+                    </div>
+                    <div class="certificates_offer__slide">
+                        <img class="certificate_card" src="./img/certificate/image4.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image1.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image2.png" alt="certificate">
+                        <img class="certificate_card" src="./img/certificate/image3.png" alt="certificate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners partners_max">
+        <div class="container">
+            <div class="heading_btns">
+                <h2>Наши партнеры</h2>
+                <div class="certificates_btns">
+                    <button class="btn_left partners__slider_prev"><img src="./img/icons/arrow_btn/previous.svg" alt=""></button>
+                    <button class="btn_right partners__slider_next"><img src="./img/icons/arrow_btn/next.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="slider_partners">
+                <div class="partners_wrapper">
+                    <div class="partners_slider_inner">
+                        <div class="partners_slide">
+                            <img src="./img/icons/partners/lukoil.svg" alt="lukoil-logo">
+                            <img src="./img/icons/partners/gazprom.svg" alt="gazprom-logo">
+                            <img src="./img/icons/partners/rosneft.svg" alt="rosneft-logo">
+                            <img src="./img/icons/partners/tatneft.svg" alt="tatneft-logo">
+                        </div>
+                        <div class="partners_slide">
+                            <img src="./img/icons/partners/lukoil.svg" alt="lukoil-logo">
+                            <img src="./img/icons/partners/gazprom.svg" alt="gazprom-logo">
+                            <img src="./img/icons/partners/rosneft.svg" alt="rosneft-logo">
+                            <img src="./img/icons/partners/tatneft.svg" alt="tatneft-logo">
+                        </div>
+                        <div class="partners_slide">
+                            <img src="./img/icons/partners/lukoil.svg" alt="lukoil-logo">
+                            <img src="./img/icons/partners/gazprom.svg" alt="gazprom-logo">
+                            <img src="./img/icons/partners/rosneft.svg" alt="rosneft-logo">
+                            <img src="./img/icons/partners/tatneft.svg" alt="tatneft-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="long_line"></div>
+            </div>
+        </div>
+    </section>
+    <section class="partners partners_mobile">
+        <div class="container">
+            <div class="heading_btns">
+                <h2>Наши партнеры</h2>
+                <div class="certificates_btns">
+                    <button class="btn_left partners_mobile__slider_prev"><img src="./img/icons/arrow_btn/previous.svg" alt=""></button>
+                    <button class="btn_right partners_mobile__slider_next"><img src="./img/icons/arrow_btn/next.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="slider_partners_mobile">
+                <div class="partners_wrapper_mobile">
+                    <div class="partners_slider_inner_mobile">
+                        <div class="partners_slide_mobile">
+                            <img src="./img/icons/partners/lukoil.svg" alt="lukoil-logo">
+                        </div>
+                        <div class="partners_slide_mobile">
+                            <img src="./img/icons/partners/gazprom.svg" alt="gazprom-logo">
+                        </div>
+                        <div class="partners_slide_mobile">
+                            <img src="./img/icons/partners/rosneft.svg" alt="rosneft-logo">
+                        </div>
+                        <div class="partners_slide_mobile">
+                            <img src="./img/icons/partners/tatneft.svg" alt="tatneft-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="long_line"></div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="heading_btns">
+                <h2>Отзывы</h2>
+                <div class="certificates_btns">
+                    <button class="btn_left reviews__slider_prev"><img src="./img/icons/arrow_btn/previous.svg" alt=""></button>
+                    <button class="btn_right reviews__slider_next"><img src="./img/icons/arrow_btn/next.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="reviews_offer__slider">
+                <div class="reviews_wrapper_slider">
+                    <div class="reviews_cards_slide">
+                        <div class="reviews_card">
+                            <p class="reviews_card_header">Гусев Вячеслав</p>
+                            <p class="reviews_card_status">Индивидуальный предприниматель</p>
+                            <p class="reviews_card_content">Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae,
+                                nisi, justo, feugiat.</p>
+                            <button class="more_detailed">Подробнее</button>
+                        </div>
+                        <div class="reviews_card">
+                            <p class="reviews_card_header">Зеленов Евгений</p>
+                            <p class="reviews_card_status">Гененеральный директор трансопртной компании</p>
+                            <p class="reviews_card_content">Mi auctor sit habitasse sed mi cras ullamcorper massa sed. In augue fames sodales pretium, at scelerisque. Pulvinar a mattis pharetra mi, aliquet sem tristique lorem eleifend. Nisl, scelerisque ut libero, pellentesque. Tincidunt
+                                vestibulum volutpat lacus imperdiet morbi vulputate tristique facilisi.</p>
+                            <button class="more_detailed">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="reviews_cards_slide">
+                        <div class="reviews_card">
+                            <p class="reviews_card_header">Зеленов Евгений</p>
+                            <p class="reviews_card_status">Гененеральный директор трансопртной компании</p>
+                            <p class="reviews_card_content">Mi auctor sit habitasse sed mi cras ullamcorper massa sed. In augue fames sodales pretium, at scelerisque. Pulvinar a mattis pharetra mi, aliquet sem tristique lorem eleifend. Nisl, scelerisque ut libero, pellentesque. Tincidunt
+                                vestibulum volutpat lacus imperdiet morbi vulputate tristique facilisi.</p>
+                            <button class="more_detailed">Подробнее</button>
+                        </div>
+                        <div class="reviews_card">
+                            <p class="reviews_card_header">Гусев Вячеслав</p>
+                            <p class="reviews_card_status">Индивидуальный предприниматель</p>
+                            <p class="reviews_card_content">Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae,
+                                nisi, justo, feugiat.</p>
+                            <button class="more_detailed">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="reviews_all btn_blue">Читать все отзывы</button>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container">
+            <h2>Оставлись вопросы?</h2>
+            <p class="question_content">Готовы ответить на любой Ваш вопрос. Оставьте свой номер телефона и мы свяжемся с вами в ближайшее время</p>
+            <form class="fuel_order_form" action="#">
+                <div class="fuel_order_input">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="fuel_order_input">
+                    <input name="phone" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Номер телефона">
+                </div>
+                <button type="submit" class="btn_blue">Перезвоните мне</button>
+            </form>
+            <p class="privacy">Нажимая на кнопку "Перезвоните мне" я соглашаюсь с <a href="#">политикой концидициальности</a></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_icon">
+                    <img src="./img/logo.svg" alt="logo">
+                    <p>© 2019 ООО "Процессинг 24"</p>
+                </div>
+                <div class="footer_link_1">
+                    <a href="#">Карта АЗС</a>
+                    <a href="#">АЗС по регионам</a>
+                    <a href="#">АЗС по брендам</a>
+                    <a href="#">Доставка топлива</a>
+                </div>
+                <div class="footer_link_2">
+                    <a href="#">Контакты</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Личный кабинет</a>
+                </div>
+                <div class="footer_tel">
+                    <a href="#">Отдел продаж</ф>
+                    <a href="tel: 84951278280">8 (495) 127-81-70</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
